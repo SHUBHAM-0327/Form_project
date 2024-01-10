@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>
+Registration Form
+</title>
+<link rel="stylesheet" href="style.css">
+<head>
+<body>
+  <form class ="Registration-form" >
+  <h2> Registration form</h2>
+  
+  <div class ="form" >
+ 
+  <input type="radio"  id = "signUp" name= "action"  style="display: inline-block>  <!-- doubt in value  -->
+  <label  for ="signUp"> SIGN UP </label>
+   <input type="radio"  id = "logIn" name= "action"  style="display: inline-block>  
+   <label for ="logIn"> LOG IN  </label>
+   
+   </div>
+   <br>
+   <div class ="form">
+   <div class="formName">
+     <label for="name"> Name: </label>
+   <input type ="text" id ="name" placeholder ="Enter your name" >
+   </div>
+ <br><br>
+    <div class="formEmail">
+     <label for="E-mail"> E-mail : </label>
+   <input type ="text" id ="E- Mail" placeholder ="Enter your email" >
+   </div>
+  </div>
+<br>  
+   <div class="form">
+   <div class="formPassword">
+   <label for ="password">Password:  </label>
+   <input type = "password" id  = "password" placeholder= "enter your password" >
+   </div>
+   </div>
+   <br>
+   <div class ="form">
+   <div class="formSelect">
+   <label for="city" >Select a city : </label>
+   <Select id="city" placeholder="choose your city">
+   <option value="Delhi">Delhi </Option>           <!-- why it is showing delhi instea of place holder -->
+   <option value="Mumbai">Mumbai </option>
+   <option value="Kolkata">Kolkata</Option>
+   <option value="Noida">Noida </Option>
+   <option value="Bengaluru">Bengaluru </Option>
+   <option value="Chennai">Chennai </Option>
+   <option value="Jaipur">Jaipur </Option>
+   </select>                                           <!--select has a closing tag this means this is a block element -->
+   </div>
+   </div>
+   <br>
+   <div class="form">
+   <div class="formaddress">
+   <label for="address">Address:</label>
+   <textarea id="address" placeholder="please write your address" rows="4" cols="40"  required>
+   </textarea>
+   </div>
+   </div>
+   <br>
+   <div class="form">
+   <div class ="formCheck">
+      <label for="Checking">Check for details:</label>
+       <input type="checkbox" id="Checking"  style="display:flex">
+    </div>
+    </div>
+	<br>
+	<div class="form">
+	<button type ="submit" >Submit</button>
+	</div>
+  </body>         
+</html>
